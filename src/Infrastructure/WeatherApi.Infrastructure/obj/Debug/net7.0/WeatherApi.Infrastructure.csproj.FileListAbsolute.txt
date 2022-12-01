@@ -1,0 +1,17 @@
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApi.Infrastructure.deps.json
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApi.Infrastructure.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApi.Infrastructure.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApi.Domain.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApp.Application.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApp.Application.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/bin/Debug/net7.0/WeatherApi.Domain.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.csproj.AssemblyReference.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.AssemblyInfoInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.AssemblyInfo.cs
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.csproj.CopyComplete
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/refint/WeatherApi.Infrastructure.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/WeatherApi.Infrastructure.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/Debug/net7.0/ref/WeatherApi.Infrastructure.dll

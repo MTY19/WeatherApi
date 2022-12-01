@@ -1,0 +1,89 @@
+﻿<Properties StartupConfiguration="{68729788-5814-49AC-97CF-2B9E878C71BF}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" relfile="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" line="26" column="1" />
+      <Breakpoint file="/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" relfile="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" line="29" column="1" />
+      <Breakpoint file="/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" relfile="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.WebApi.WeatherApi.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs">
+    <Files>
+      <File FileName="src/Core/WeatherApi.Domain/Entities/Weather.cs" />
+      <File FileName="src/Core/WeatherApi.Domain/Common/BaseEntity.cs" />
+      <File FileName="src/Core/WeatherApi.Domain/Entities/Root.cs" />
+      <File FileName="src/Core/WeatherApi.Domain/Entities/Datum.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Dto/WeatherViewDto.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Wrappers/BaseResponse.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Wrappers/PagedResponse.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Parameters/RequestParameter.cs" />
+      <File FileName="src/Core/WeatherApi.Domain/Entities/User.cs" />
+      <File FileName="src/Infrastructure/WeatherApp.Persistance/Repositories/GenericRepository.cs" />
+      <File FileName="src/WebApi/WeatherApi.WebApi/Controllers/UserController.cs" Line="47" Column="10" />
+      <File FileName="src/Core/WeatherApp.Application/ServiceRegistration.cs" />
+      <File FileName="src/Infrastructure/WeatherApp.Persistance/ServiceRegistration.cs" />
+      <File FileName="src/WebApi/WeatherApi.WebApi/Program.cs" Line="54" Column="24" />
+      <File FileName="src/Core/WeatherApp.Application/Features/Commands/UserLoginCommand.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Dto/UserViewDto.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Features/Queries/GetAllUsersQuery.cs" />
+      <File FileName="src/Core/WeatherApp.Application/Mapping/GeneralMapping.cs" />
+      <File FileName="src/Infrastructure/WeatherApp.Persistance/Repositories/UserRepository.cs" />
+      <File FileName="src/WebApi/WeatherApi.WebApi/appsettings.json" />
+      <File FileName="src/Core/WeatherApp.Application/Wrappers/ServiceResponse.cs" />
+      <File FileName="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherCoordinateService.cs" Line="15" Column="36" />
+      <File FileName="src/Core/WeatherApp.Application/Features/Commands/Weather/WeatherCoordinatesCommand.cs" Line="14" Column="29" />
+      <File FileName="src/Core/WeatherApp.Application/Interfaces/Services/IWeatherCoordinateService.cs" Line="1" Column="1" />
+      <File FileName="src/Infrastructure/WeatherApi.Infrastructure/Services/Weather/WeatherService.cs" Line="24" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WeatherApi" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Core" expanded="True">
+                <Node name="WeatherApi.Domain" expanded="True">
+                  <Node name="Entities" expanded="True" />
+                </Node>
+                <Node name="WeatherApp.Application" expanded="True">
+                  <Node name="Features" expanded="True">
+                    <Node name="Commands" expanded="True">
+                      <Node name="Weather" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="Interfaces" expanded="True">
+                    <Node name="Services" expanded="True" />
+                  </Node>
+                  <Node name="Mapping" expanded="True" />
+                  <Node name="Parameters" expanded="True" />
+                  <Node name="Wrappers" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True">
+                <Node name="WeatherApi.Infrastructure" expanded="True">
+                  <Node name="Services" expanded="True">
+                    <Node name="Weather" expanded="True">
+                      <Node name="WeatherService.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="WeatherApp.Persistance" expanded="True">
+                  <Node name="Context" expanded="True" />
+                  <Node name="Helper" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="WebApi" expanded="True">
+                <Node name="WeatherApi.WebApi" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Properties" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

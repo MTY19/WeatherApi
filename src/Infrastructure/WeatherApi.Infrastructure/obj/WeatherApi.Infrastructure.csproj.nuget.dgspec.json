@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/WeatherApi.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/WeatherApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/WeatherApi.Domain.csproj",
+        "projectName": "WeatherApi.Domain",
+        "projectPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/WeatherApi.Domain.csproj",
+        "packagesPath": "/Users/mehmettahiryildirim/.nuget/packages/",
+        "outputPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmettahiryildirim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/WeatherApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/WeatherApp.Application.csproj",
+        "projectName": "WeatherApp.Application",
+        "projectPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/WeatherApp.Application.csproj",
+        "packagesPath": "/Users/mehmettahiryildirim/.nuget/packages/",
+        "outputPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmettahiryildirim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/WeatherApi.Domain.csproj": {
+                "projectPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/WeatherApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/WeatherApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/WeatherApi.Infrastructure.csproj",
+        "projectName": "WeatherApi.Infrastructure",
+        "projectPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/WeatherApi.Infrastructure.csproj",
+        "packagesPath": "/Users/mehmettahiryildirim/.nuget/packages/",
+        "outputPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Infrastructure/WeatherApi.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmettahiryildirim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/WeatherApp.Application.csproj": {
+                "projectPath": "/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/WeatherApp.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

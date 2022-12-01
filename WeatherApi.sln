@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49A13AD5-0BBA-440D-9E72-C8E86427AA76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C127C546-C082-4BC5-8603-0D99B2666E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Domain", "src\Core\WeatherApi.Domain\WeatherApi.Domain.csproj", "{F619AFCE-BCEF-4856-B10A-BD76160A28F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Application", "src\Core\WeatherApp.Application\WeatherApp.Application.csproj", "{572598DD-29C7-4890-9EFC-70D1BD27D8DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D9CD46E7-2FDB-4C55-B296-08D3B3F8BF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Persistance", "src\Infrastructure\WeatherApp.Persistance\WeatherApp.Persistance.csproj", "{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{3334C5E4-6859-4600-B972-CDAE2B224E8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.WebApi", "src\WebApi\WeatherApi.WebApi\WeatherApi.WebApi.csproj", "{68729788-5814-49AC-97CF-2B9E878C71BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi.Infrastructure", "src\Infrastructure\WeatherApi.Infrastructure\WeatherApi.Infrastructure.csproj", "{914BD370-78F1-4E6F-8B01-D6ADE145CB13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F619AFCE-BCEF-4856-B10A-BD76160A28F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F619AFCE-BCEF-4856-B10A-BD76160A28F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F619AFCE-BCEF-4856-B10A-BD76160A28F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F619AFCE-BCEF-4856-B10A-BD76160A28F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572598DD-29C7-4890-9EFC-70D1BD27D8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572598DD-29C7-4890-9EFC-70D1BD27D8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572598DD-29C7-4890-9EFC-70D1BD27D8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572598DD-29C7-4890-9EFC-70D1BD27D8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68729788-5814-49AC-97CF-2B9E878C71BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68729788-5814-49AC-97CF-2B9E878C71BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68729788-5814-49AC-97CF-2B9E878C71BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68729788-5814-49AC-97CF-2B9E878C71BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{914BD370-78F1-4E6F-8B01-D6ADE145CB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{914BD370-78F1-4E6F-8B01-D6ADE145CB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{914BD370-78F1-4E6F-8B01-D6ADE145CB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{914BD370-78F1-4E6F-8B01-D6ADE145CB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E8EE68F-5C17-4664-BC86-BB3615FAFF0C}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C127C546-C082-4BC5-8603-0D99B2666E71} = {49A13AD5-0BBA-440D-9E72-C8E86427AA76}
+		{F619AFCE-BCEF-4856-B10A-BD76160A28F9} = {C127C546-C082-4BC5-8603-0D99B2666E71}
+		{572598DD-29C7-4890-9EFC-70D1BD27D8DB} = {C127C546-C082-4BC5-8603-0D99B2666E71}
+		{D9CD46E7-2FDB-4C55-B296-08D3B3F8BF2D} = {49A13AD5-0BBA-440D-9E72-C8E86427AA76}
+		{42B4A307-3E0F-4129-9ACA-FE6D2C2E1EC2} = {D9CD46E7-2FDB-4C55-B296-08D3B3F8BF2D}
+		{3334C5E4-6859-4600-B972-CDAE2B224E8D} = {49A13AD5-0BBA-440D-9E72-C8E86427AA76}
+		{68729788-5814-49AC-97CF-2B9E878C71BF} = {3334C5E4-6859-4600-B972-CDAE2B224E8D}
+		{914BD370-78F1-4E6F-8B01-D6ADE145CB13} = {D9CD46E7-2FDB-4C55-B296-08D3B3F8BF2D}
+	EndGlobalSection
+EndGlobal

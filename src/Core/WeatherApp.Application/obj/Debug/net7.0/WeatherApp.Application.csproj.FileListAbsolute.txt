@@ -1,0 +1,15 @@
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/bin/Debug/net7.0/WeatherApp.Application.deps.json
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/bin/Debug/net7.0/WeatherApp.Application.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/bin/Debug/net7.0/WeatherApp.Application.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/bin/Debug/net7.0/WeatherApi.Domain.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/bin/Debug/net7.0/WeatherApi.Domain.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.csproj.AssemblyReference.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.AssemblyInfoInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.AssemblyInfo.cs
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.csproj.CoreCompileInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.csproj.CopyComplete
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/refint/WeatherApp.Application.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/WeatherApp.Application.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApp.Application/obj/Debug/net7.0/ref/WeatherApp.Application.dll

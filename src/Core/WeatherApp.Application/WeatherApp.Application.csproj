@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dto\" />
+    <None Remove="Mapping\" />
+    <None Remove="Wrappers\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Repository\" />
+    <None Remove="Parameters\" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MediatR" />
+    <None Remove="Features\" />
+    <None Remove="Features\Commands\" />
+    <None Remove="Features\Queries\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Features\Commands\LoginUser\" />
+    <None Remove="Interfaces\Token\" />
+    <None Remove="Interfaces\Services\" />
+    <None Remove="Features\Commands\Weather\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dto\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Wrappers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Repository\" />
+    <Folder Include="Parameters\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Features\Commands\LoginUser\" />
+    <Folder Include="Interfaces\Token\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Features\Commands\Weather\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherApi.Domain\WeatherApi.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/bin/Debug/net7.0/WeatherApi.Domain.deps.json
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/bin/Debug/net7.0/WeatherApi.Domain.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/bin/Debug/net7.0/WeatherApi.Domain.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.csproj.AssemblyReference.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.AssemblyInfoInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.AssemblyInfo.cs
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.csproj.CoreCompileInputs.cache
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/refint/WeatherApi.Domain.dll
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/WeatherApi.Domain.pdb
+/Users/mehmettahiryildirim/Projects/WeatherApi/src/Core/WeatherApi.Domain/obj/Debug/net7.0/ref/WeatherApi.Domain.dll
