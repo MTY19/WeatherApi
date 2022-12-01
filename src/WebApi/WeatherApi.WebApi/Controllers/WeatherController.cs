@@ -15,33 +15,29 @@ using WeatherApp.Application.Wrappers;
 namespace WeatherApi.WebApi.Controllers
 {
     [Route("api/[controller]")]
-    public class UserController : Controller
+    public class WeatherController : Controller
     {
         private readonly IMediator mediator;
 
-        public UserController(IMediator mediator)
+        public WeatherController(IMediator mediator)
         {
             this.mediator = mediator;
         }
 
         [Authorize]
-        [HttpGet("GetUserList")]
-        public async Task<IActionResult> Get()
+        [HttpGet("GetCoordinatesFromCityName")]
+        public async Task<IActionResult> GetCoordinatesFromName(WeatherCoordinatesCommand weatherCoordinatesCommand)
         {
-            var query = new GetAllUsersQuery();
+            var mediatR = await mediator.Send(weatherCoordinatesCommand);
 
-            return Ok(await mediator.Send(query));
+            return Ok(mediatR);
         }
 
-        [HttpPost("Login")]
-        public async Task<IActionResult> Login(LoginUserCommandRequest loginUserCommandRequest)
+        [Authorize]
+        [HttpGet("GetWeatherFromCoordinates")]
+        public async Task<IActionResult> GetWeatherFromCoordinates(WeatherCommand weatherCommand)
         {
-            var mediatR = await mediator.Send(loginUserCommandRequest);
-
-            if (mediatR == null)
-            {
-                return BadRequest(mediatR);
-            }
+            var mediatR = await mediator.Send(weatherCommand);
 
             return Ok(mediatR);
         }
